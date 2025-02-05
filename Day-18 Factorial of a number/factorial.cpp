@@ -4,12 +4,15 @@ int main()
 {
 
     int n, factorial = 1;
-    cout << "Enter the value for n: ";
+    cout << "Enter the Number : ";
     cin >> n;
 
     for (int i = n; i >= 1; i--)
     {
         factorial = factorial * i;
     }
-    cout << factorial;
+    cout <<"factorial of " <<n<<" is "<< factorial;
 }
+
+//input  : Enter the Number : 5
+//output : factorial of 5 is 120
