@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-
     int base, exponent, power = 1;
 
     cout << "Enter the value for Base: ";
@@ -14,6 +13,8 @@ int main()
     {
         power *= base;
     }
-
-    cout<<"power = "<<power;
+    cout << "power = " << power;
 }
+
+// input  : Enter the value for Base: 3 , Enter the value for Exponent: 2
+// output : power = 9
