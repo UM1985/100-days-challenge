@@ -14,8 +14,6 @@ int main()
     {
         if (num % i == 0)
         {
-            // cout << i << " ";
-
             int count = 0;
             for (int j = 1; j <= i; j++)
             {
@@ -31,3 +29,6 @@ int main()
         }
     }
 }
+
+//input  : Enter the Number : 35
+//output : prime factors are 5 7
