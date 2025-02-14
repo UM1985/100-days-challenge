@@ -15,3 +15,6 @@ int main() {
         cout << "Given number is not a perfect square!!";
     }
 }
+
+// input  : Enter the Number: 25
+// output : Given number is a perfect square!!

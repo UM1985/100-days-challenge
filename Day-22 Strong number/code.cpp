@@ -30,3 +30,6 @@ int main()
         cout << num << " is not strong Number!";
     }
 }
+
+// input  : Enter the Number: 145
+// output : 145 is strong Number!

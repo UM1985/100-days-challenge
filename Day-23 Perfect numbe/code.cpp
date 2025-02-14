@@ -24,3 +24,6 @@ int main()
         cout << num << " is not perfect Number!";
     }
 }
+
+//input  : Enter the number: 28
+//output : 28 is perfect Number!
