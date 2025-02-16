@@ -2,15 +2,11 @@
 using namespace std;
 int main()
 {
-    int num, temp, temp2, temp3, count = 0, reverse = 0, automorphic = 0;
+    int num, temp, count = 0, reverse = 0, automorphic = 0;
     cout << "Enter the Number: ";
     cin >> num;
     temp = num;
-    if (num < 0)
-    {
-        cout << "Negative numbers cannot be perfect squares.";
-        return 0;
-    }
+
     int square = num * num;
 
     while (temp > 0)
@@ -36,6 +32,9 @@ int main()
     }
     else
     {
-        cout << "Entered number is Automorphic!";
+        cout << "Entered number is not Automorphic!";
     }
 }
+
+// input  : Enter the Number: 76
+// output : Entered number is Automorphic!

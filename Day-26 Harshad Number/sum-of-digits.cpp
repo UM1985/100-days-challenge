@@ -21,3 +21,5 @@ int main()
         cout << num << " is not divisible by " << sum << " so " << num << " is not a Harshad Number.";
     }
 }
+//input  : Enter any number: 23
+//output : 23 is not divisible by 5 so 23 is not a Harshad Number.
