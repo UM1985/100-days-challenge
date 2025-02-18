@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-
     int num, temp, sum = 0;
 
     cout << "Enter the Number : ";
@@ -26,3 +25,7 @@ int main()
         cout << num << " is not an Abundant Number";
     }
 }
+
+//input  : Enter the Number : 24
+//output : 24 is an Abundant Number
+//         The Abundance is: 12
