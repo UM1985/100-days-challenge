@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int getdecimal( long long number){
+int getdecimal(int number){
 
     int i =0 , digit,decimal=0;
 
@@ -16,9 +16,9 @@ int getdecimal( long long number){
 
 int main(){
 
-long long  octal;
+int octal;
 
-cout<<"Enter the binary number : ";
+cout<<"Enter the octal number : ";
 cin>>octal;
 
  int decimal =getdecimal(octal);
@@ -26,3 +26,6 @@ cin>>octal;
  cout<<"Decimal of "<<octal<<" is "<<decimal;
 
 }
+
+//input  : Enter the octal number : 17
+//output : Decimal of 17 is 15

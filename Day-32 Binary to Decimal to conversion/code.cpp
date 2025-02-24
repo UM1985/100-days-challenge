@@ -26,3 +26,6 @@ cin>>binary;
  cout<<"Decimal of "<<binary<<" is "<<decimal;
 
 }
+
+//input  : Enter the binary number : 1010
+//output : Decimal of 1010 is 10
