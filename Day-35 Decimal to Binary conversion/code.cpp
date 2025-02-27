@@ -3,13 +3,13 @@ using namespace std;
 
 int getbinary(int num)
 {
-    int rem=0, pow = 1, binary = 0;
+    int rem = 0, pow = 1, binary = 0;
 
     while (num != 0)
     {
         rem = num % 2;
         num /= 2;
-        binary = binary + (rem *pow );
+        binary = binary + (rem * pow);
         pow *= 10;
     }
 
@@ -27,3 +27,6 @@ int main()
 
     cout << "Binary of " << decimal << " is " << binary;
 }
+
+//input  : Enter the Decimal number : 45
+//output : Binary of 45 is 101101
