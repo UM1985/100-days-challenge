@@ -28,3 +28,6 @@ int main(){
         cout<<hexa[i];
     }
 }
+
+//input  : Enter any decimal Number : 453
+//output : 1C5
