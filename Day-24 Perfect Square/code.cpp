@@ -9,6 +9,7 @@ int main() {
         return 0;
     }
     int squareroot = sqrt(num);
+    
     if (squareroot * squareroot == num) {
         cout << "Given number is a perfect square!!";
     } else {

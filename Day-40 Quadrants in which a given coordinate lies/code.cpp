@@ -32,3 +32,7 @@ int main()
 
     checkquadrant(x, y);
 }
+
+//input  :Enter the value for x coordinate : -5
+//        Enter the value for y coordinate : 6
+//output :-5,6 lies in second quadrant

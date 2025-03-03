@@ -33,3 +33,6 @@ int main() {
     cout << "Octal equivalent: " << binaryToOctal(binary) << endl;
     return 0;
 }
+
+//input  : Enter a binary number: 1010111100
+//output : Octal equivalent: 1274
