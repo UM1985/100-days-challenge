@@ -28,3 +28,6 @@ int main(){
     cout<<"The new number is "<<result;
 
 }
+
+//input  : Enter any Number that contain 0 in it : 2304002
+//output : The new number is 2314112
