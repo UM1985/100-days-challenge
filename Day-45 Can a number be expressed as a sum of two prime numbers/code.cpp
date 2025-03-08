@@ -45,3 +45,7 @@ int main()
         }
     }
 }
+
+//input  :Enter any positive Number : 38
+//output :7 + 31 = 38
+//        19 + 19 = 38
