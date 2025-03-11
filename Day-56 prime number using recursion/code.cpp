@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+// #include<bits/stdc++.h>
+#include<iostream>
+#include<math.h>
 using namespace std;
 
 bool isPrime(int n)
