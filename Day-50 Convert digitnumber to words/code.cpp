@@ -78,3 +78,7 @@ int main() {
 
     return 0;
 }
+
+//input  : Enter a number (0 to 999): 453
+//output : The number in words is: Four Hundred and Fifty Three
+ 
