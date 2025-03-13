@@ -47,3 +47,7 @@ int main()
     
     checkDays(month,year);
 }
+
+//input  : Enter the month : 2
+//         Enter the year : 2025
+//output : Number of days is 28
