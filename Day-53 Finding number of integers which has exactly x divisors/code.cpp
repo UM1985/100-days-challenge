@@ -34,3 +34,5 @@ int main() {
          << findNumbersWithXDivisors(limit, x) << endl;
     
 }
+
+//output : Count of numbers with exactly 4 divisors up to 100 is: 32
