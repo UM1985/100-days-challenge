@@ -21,3 +21,7 @@ int main()
     cin >> pow;
     cout << "Base " << base << " power " << pow << " is "<<power(base, pow);
 }
+
+//input  : Enter the Base Value : 2
+//         Enter the power Value : 3
+//output : Base 2 power 3 is 8

@@ -39,3 +39,7 @@ int main() {
     findRoots(a, b, c);
    
 }
+
+
+//input  : Enter coefficients a, b, and c: 1 4 4  
+//output : Roots are real and equal: -2
