@@ -1,4 +1,3 @@
-// #include<bits/stdc++.h>
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -27,3 +26,6 @@ int main()
 
    return 0;
 }
+
+//input  : Enter Any number: 5
+//output : Prime Number
