@@ -24,3 +24,7 @@ int main()
 
     reverse(num);
 }
+
+
+//intput : Enter any number : 382405
+//output : 504283

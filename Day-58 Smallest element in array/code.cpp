@@ -12,3 +12,5 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]); 
     cout << "Smallest Element in the given array is : " << smallest_element(n, arr);
 }
+
+//output : Smallest Element in the given array is : 167
