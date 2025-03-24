@@ -42,3 +42,7 @@ int main()
 
     cout << "HCF of " << num1 << " & " << num2 << " is " << hcf;
 }
+
+//input  : Enter the first number : 96
+//         Enter the second number : 56
+//output : HCF of 96 & 56 is 8
