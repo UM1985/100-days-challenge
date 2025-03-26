@@ -39,7 +39,11 @@ int main()
     cin >> num2;
 
     int hcf = getHCF(num1, num2);
-    int lcm = (num1*num2) / hcf;
+    int lcm = (num1 * num2) / hcf;
 
     cout << "LCM of " << num1 << " & " << num2 << " is " << lcm;
 }
+
+// input  : Enter the first number : 24
+//          Enter the second number : 36
+// output : LCM of 24 & 36 is 72
