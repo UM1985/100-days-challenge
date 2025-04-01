@@ -1,22 +1,33 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+// Recursive function 
+int term(int calculated, int current, int N) 
+{
+    int i, cur = 1;
 
-int n,sum=0 , n2 =1;
+    // Base Condition
+    if (current == N + 1) 
+       return 0;
 
-    cout<<"Enter value for N: ";
-    cin>>n;
+    // product of terms till current
+    for (i = calculated; i < calculated + current; i++)
+        cur *= i;
 
-for(int i =1 ; i<=n;i++){
-    int n1 =1;
-    for(int j =1 ;j<=i; j++){
-        n1 *= n2;
-        n2++;
-    }
-    sum += n1;
+     return cur + term(i, current + 1, N); 
 }
 
-cout<<sum;
+// Driver Code
+int main()
+{
+    int N ;
+    cout<<"Enter the value for n : ";
+    cin>>N;
 
+    cout<<term(1, 1, N);
+
+    return 0;
 }
+
+//input  : Enter the value for n : 4
+//output : 5167 
