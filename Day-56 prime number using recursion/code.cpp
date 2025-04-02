@@ -1,31 +1,33 @@
-#include<iostream>
-#include<math.h>
+#include <iostream>
 using namespace std;
-
-bool isPrime(int n)
+bool prime(int num, int i)
 {
-   for(int i=2; i<=sqrt(n); i++){
-       if(n%i==0)
-         return false;
+
+   if (i == num)
+   {
+      return true;
    }
 
-   return true;
+   if (num % i == 0)
+   {
+      return false;
+   }
+
+   return prime(num, i + 1);
 }
 
-// Driver Program
 int main()
 {
-   int n;
+   int num;
+   cout << "Enter Number : ";
+   cin >> num;
 
-   cout<<"Enter Any number: ";
-   cin>>n;
-   if (isPrime(n))
-      cout << "Prime Number";
+   if (prime(num, 2))
+   {
+      cout << "The given number is prime number!";
+   }
    else
-      cout << "Not Prime";
-
-   return 0;
+   {
+      cout << "The given number is not prime number!";
+   }
 }
-
-//input  : Enter Any number: 5
-//output : Prime Number
