@@ -45,3 +45,5 @@ int main()
 
     cout << "Second Smallest Element in the given array is " << smallest << endl;
 }
+
+// output : Second Smallest Element in the given array is 5

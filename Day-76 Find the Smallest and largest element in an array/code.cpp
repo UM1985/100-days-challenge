@@ -1,39 +1,48 @@
-#include<iostream>
-#include<limits.h>
+#include <iostream>
+#include <limits.h>
 using namespace std;
 
-int Greatest(int arr[] , int size){
+int Greatest(int arr[], int size)
+{
     int n = INT_MIN;
-    
-    for(int i =0 ; i <size ; i++){
-         if(arr[i]>n){
+
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] > n)
+        {
             n = arr[i];
-         }
+        }
     }
-     return n;
+    return n;
+}
+
+int Smallet(int arr[], int size)
+{
+    int n = INT_MAX;
+
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] < n)
+        {
+            n = arr[i];
+        }
     }
-
-int Smallet(int arr[] , int size){
-int n = INT_MAX;
-
-for(int i =0 ; i <size ; i++){
-     if(arr[i]<n){
-        n = arr[i];
-     }
-}
- return n;
+    return n;
 }
 
-int main(){
+int main()
+{
 
-    int arr[] = {3,44,665,554,6432,544,3634,66,443,345};
+    int arr[] = {3, 44, 665, 554, 6432, 544, 3634, 66, 443, 345};
 
-    int size = sizeof(arr)/sizeof(arr[1]);
+    int size = sizeof(arr) / sizeof(arr[1]);
 
-    int greatest = Greatest(arr , size);
-    int smallest = Smallet(arr , size);
+    int greatest = Greatest(arr, size);
+    int smallest = Smallet(arr, size);
 
-    cout<<"Greatest number in the given array is "<<greatest<<endl;
-    cout<<"Smallest number in the given array is "<<smallest<<endl;
-      
+    cout << "Greatest number in the given array is " << greatest << endl;
+    cout << "Smallest number in the given array is " << smallest << endl;
 }
+
+// output : Greatest number in the given array is 6432
+//          Smallest number in the given array is 3      

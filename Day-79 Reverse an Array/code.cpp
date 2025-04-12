@@ -27,3 +27,5 @@ int main()
 
     reverse(arr , size);
 }
+
+//output : 78 48 87 76 55 53 43 

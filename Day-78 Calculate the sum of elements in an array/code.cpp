@@ -24,3 +24,5 @@ int sum =Sum(arr,size);
 cout <<"Addition of all elements in given array is "<<sum;
 
 }
+
+//output : Addition of all elements in given array is 15

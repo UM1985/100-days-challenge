@@ -24,3 +24,5 @@ int main(){
     cout<<"Greatest number in the given array is "<<greatest;
       
 }
+
+//output : Greatest number in the given array is 6432

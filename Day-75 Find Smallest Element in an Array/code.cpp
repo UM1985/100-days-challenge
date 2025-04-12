@@ -24,3 +24,5 @@ int main(){
     cout<<"Smallest number in the given array is "<<smallest;
       
 }
+
+//output : Smallest number in the given array is 3
