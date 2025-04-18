@@ -37,3 +37,6 @@ int main()
 
     Sort(arr, size);
 }
+
+
+// output : Repeating Elements in the given array : 1 3 4 5 6 7 8 

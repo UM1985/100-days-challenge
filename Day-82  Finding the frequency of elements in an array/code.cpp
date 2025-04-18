@@ -26,25 +26,16 @@ void Sort(int arr[], int size)
 
 int main()
 {
-    int arr[] = {
-        4,
-        5,
-        4,
-        5,
-        6,
-        5,
-        6,
-        7,
-        8,
-        7,
-        8,
-        7,
-        8,
-        4,
-        3,
-    };
+    int arr[] = {4,5,4,5,6,5,6,7,8,7,8,7,8,4,3};
 
     int size = sizeof(arr) / sizeof(arr[0]);
 
     Sort(arr, size);
 }
+
+//output : 3 occurs 1 times 
+//         4 occurs 3 times 
+//         5 occurs 3 times 
+//         6 occurs 2 times 
+//         7 occurs 3 times 
+//         8 occurs 3 times 

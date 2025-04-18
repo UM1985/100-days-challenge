@@ -10,10 +10,6 @@ void Sort(int arr[], int size)
 
     sort(arr + mid, arr + size, greater<int>());
 
-    //    for(int element : arr){
-    // cout<<element <<" ";
-    //  }
-
     for (int i = 0; i < size; i++)
     {
         cout << arr[i] << " ";
@@ -28,3 +24,5 @@ int main()
 
     Sort(arr, size);
 }
+
+// output : 0 1 3 4 5 10 9 8 7 6 

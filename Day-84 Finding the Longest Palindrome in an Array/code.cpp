@@ -3,11 +3,9 @@ using namespace std;
 
 void isPalindrome(int arr[], int size)
 {
-
-  
-
     for (int i = 0; i < size; i++)
-    {   int rev = 0;
+    {
+        int rev = 0;
         int num = arr[i];
         while (num > 0)
         {
@@ -25,10 +23,9 @@ void isPalindrome(int arr[], int size)
 
 int main()
 {
-
     int arr[] = {434, 555, 6676, 65788, 6565, 887788, 453};
-
     int size = sizeof(arr) / sizeof(arr[0]);
-
     isPalindrome(arr, size);
 }
+
+// output : 434 555 887788 

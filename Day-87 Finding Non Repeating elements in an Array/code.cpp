@@ -37,3 +37,5 @@ int main()
 
     Sort(arr, size);
 }
+
+// output : Non Repeating Elements in the given array : 1 3 

@@ -28,3 +28,5 @@ int main()
 
     distinctElement(arr, size);
 }
+
+// output : Total distinct elements in given array is 6
